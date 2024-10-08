@@ -1,0 +1,8 @@
+* {
+    outline: 1px dotted red;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
