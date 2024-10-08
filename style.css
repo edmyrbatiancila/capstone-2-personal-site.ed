@@ -1,8 +1,37 @@
-* {
-    outline: 1px dotted red;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
 }
 
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
+}
+
+.banner {
+    padding: 0;
+}
+
+.banner img {
+    width: 100%;
+    margin: 0 0 20px 0;
+    border: none;
+}
+
+#mypic {
+    border-radius: 50%;
+    height: 200px;
+}
+
+/* css for resume section */
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.skills_set {
+    list-style: none;
 }
