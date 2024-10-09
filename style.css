@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+/* * {
+    outline: 1px dotted red;
+} */
+
 body {
     font-family: "Open Sans", sans-serif;
 }
@@ -52,15 +56,26 @@ body {
 }
 
 
-.skills_set li span {
+.skills_set li span, .cert_summary span {
     padding-right: 20px;
-    font-weight: bold;
 }
 
 .experience p, .training_date, .school_address, .year_graduated {
     text-align: right;
 }
 
-.experience span {
+.experience span, .training span, .skills_set li span, .cert_summary span, .education span  {
     font-weight: bold;
+}
+
+.cert_summary, .training_summary {
+    text-align: justify;
+}
+
+
+/* css style for projects section */
+
+.project {
+    background-size: cover;
+    background-repeat: no-repeat;
 }
